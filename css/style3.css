@@ -33,15 +33,9 @@ body {height:100%;transition: 0.5s;}
 
 /*SESSÃO NAVBAR*//*SESSÃO NAVBAR*//*SESSÃO NAVBAR*//*SESSÃO NAVBAR*/
 nav {
-<<<<<<< HEAD
-   background-image: linear-gradient(rgb(165, 67, 226),rgb(149, 46, 209)); 
-   width: 100%;
-   height: 85px;
-=======
    background-color: rgb(191, 81, 255); 
    width: 100%;
    height: 65px;
->>>>>>> cf1aa03 (v2.0)
    box-shadow: 1px 1px 3px rgb(0, 0, 0);
    z-index: 999;
    position: fixed;
@@ -49,27 +43,16 @@ nav {
 
 .logo a {
     display: inline-block;
-<<<<<<< HEAD
-    padding-top: 0.8%;
-    font-size: 40px;
-    text-shadow: 1px 1px 3px rgb(51, 51, 51);
-    color: rgb(221, 220, 221);
-=======
     padding-top: 0.3%;
     font-size: 40px;
     text-shadow: 1px 1px 3px rgb(51, 51, 51);
     color: rgb(231, 231, 231);
->>>>>>> cf1aa03 (v2.0)
     text-decoration: none;
 }
 
 nav .menu-desktop {
     float: right;
-<<<<<<< HEAD
-    margin-top: 1.7%; 
-=======
     margin-top: 1.2%; 
->>>>>>> cf1aa03 (v2.0)
 }
 
 nav .menu-desktop ul {
@@ -82,11 +65,7 @@ nav .menu-desktop ul li {
     display: inline-block;
     padding-left: 15px;
     font-size: 20px;
-<<<<<<< HEAD
-    color: rgb(221, 220, 221);
-=======
     color: rgb(231, 231, 231);
->>>>>>> cf1aa03 (v2.0)
     transition: 0.5s;
     text-shadow: 1px 1px 3px rgb(46, 45, 45);
 }
@@ -98,10 +77,7 @@ nav .menu-desktop ul li:hover {
 }
 /*FIM DA SESSÃO NAVBAR*//*FIM DA SESSÃO NAVBAR*//*FIM DA SESSÃO NAVBAR*/
 
-<<<<<<< HEAD
-=======
 
->>>>>>> cf1aa03 (v2.0)
 /*SESSÃO HOME*//*SESSÃO HOME*//*SESSÃO HOME*//*SESSÃO HOME*/
 .apresentacao {
     height: 864px;
@@ -114,10 +90,7 @@ nav .menu-desktop ul li:hover {
     background-image: url(../imagens/bg1.jpg);
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
-=======
     background-attachment: fixed;
->>>>>>> cf1aa03 (v2.0)
     filter: brightness(25%);
     z-index: 3;
     position: absolute;
@@ -154,11 +127,7 @@ nav .menu-desktop ul li:hover {
     font-size: 25px;
 }
 
-<<<<<<< HEAD
-.ap-chamada span {
-=======
 span {
->>>>>>> cf1aa03 (v2.0)
     color: rgb(185, 105, 238);
 }
 
@@ -168,17 +137,10 @@ span {
     text-align: center;
 }
 
-<<<<<<< HEAD
-.ap-chamada input[type=button] {
-    width: 25%;
-    height: 35px;
-    margin-left: 37%;
-=======
 .ap-chamada .botao-conhecer {
     width: 35%;
     height: 35px;
     margin-left: 41%;
->>>>>>> cf1aa03 (v2.0)
     margin-top: 2%;
     border:0;
     box-shadow: 3px 3px 5px rgb(36, 36, 36);
@@ -189,13 +151,6 @@ span {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-.ap-chamada input[type=button]:hover {
-    scale: 1.2;
-}
-
-=======
->>>>>>> cf1aa03 (v2.0)
 
 
 .ap-ilustracao {
@@ -204,7 +159,7 @@ span {
     z-index: 10;
     position: relative;
     right: 150px;
-    top: 220px;
+    top: 260px;
     float: right;
     display: flex;
     flex-direction: row;
@@ -230,39 +185,21 @@ span {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    top: 75px;
-}
-.ap-ilustracao .img3 {
-    width: 450px;
-    height:100px;
-    background-image: url(../imagens/layout3.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    bottom: 50px;
 }
 
 .ap-ilustracao div:hover {
     scale: 1.03;
     transition: 0.5s;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> cf1aa03 (v2.0)
 /*FIM DA SESSÃO HOME*//*FIM DA SESSÃO HOME*//*FIM DA SESSÃO HOME*/
 
 
 
 
 /*SESSÃO SERVICOS*//*SESSÃO SERVICOS*//*SESSÃO SERVICOS*/
-<<<<<<< HEAD
-
-.servicos {
-    height: 900px;
-=======
 .servicos {
     height: 920px;
->>>>>>> cf1aa03 (v2.0)
     width: 100%;
     margin-top: 55px;
     background-image: linear-gradient( black 5%, rgb(67, 21, 94));
@@ -277,34 +214,12 @@ span {
     color: white;
 }
 
-<<<<<<< HEAD
-.servicos .container-m {
-=======
 .servicos .container-g {
     width: 65%;
->>>>>>> cf1aa03 (v2.0)
     display: flex;
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-.servicos .container-m .box {
-    width: 40%;
-    height:300px;
-    border: 1px solid white;
-    border-radius: 2%;
-    margin-top: 5%;
-    box-shadow: 5px 5px 10px black;
-}
-
-.servicos .container-m .box .icone {
-    width: 30%;
-    height:150px;
-    margin: 0 auto;
-}
-.servicos .container-m .box .icone i{
-    font-size: 115px;
-=======
 .servicos .container-g .box {
     width: 25%;
     height:300px;
@@ -326,16 +241,11 @@ span {
 }
 .servicos .container-g .box .icone i{
     font-size: 100px;
->>>>>>> cf1aa03 (v2.0)
     text-shadow: 3px 3px 3px black;
     padding: 12% 0;
 }
 
-<<<<<<< HEAD
-.servicos .container-m .box .texto {
-=======
 .servicos .container-g .box .texto {
->>>>>>> cf1aa03 (v2.0)
     width: 100%;
     height: calc(100% - 150px);
     color: rgb(204, 204, 204);
@@ -344,14 +254,6 @@ span {
     padding: 2% 0;
     border-radius: 3%;
 }
-<<<<<<< HEAD
-.servicos .container-m .box .texto h2 {
-    padding-bottom: 2%;
-}
-
-
-/*FIM DA SESSÃO SERVICOS*//*FIM DA SESSÃO SERVICOS*/
-=======
 .servicos .container-g .box .texto h2 {
     padding-bottom: 2%;
 }
@@ -567,4 +469,3 @@ footer {
     padding-top: 1%;
 }
 /*FIM DO FOOTER*//*FIM DO FOOTER*//*FIM DO FOOTER*//*FIM DO FOOTER*/
->>>>>>> cf1aa03 (v2.0)
